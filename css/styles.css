@@ -1,0 +1,130 @@
+body{
+    font-family: 'Montserrat';
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 2.4rem;
+    font-family: "Montserrat";
+    line-height: 1.5;
+}
+
+#title{
+    background-color: #282A3A;
+}
+
+#features{
+    color: black;
+    padding: 12rem;
+    text-align: center;
+}
+
+.features-title{
+    font-weight: 600;
+    font-size: 2.4rem; 
+    font-family: "Cabin";
+
+}
+
+.features-text{
+    color: grey;
+    width: 60%;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.15rem;
+    margin: 0 auto 0 auto;
+}
+
+.container-fluid{
+    padding: 3% 15%;
+}
+
+.check-icon{
+    font-size: 4rem;
+    color: #54B435;
+    padding-top: 3.75rem;
+}
+
+.check-icon:hover{
+    color: #82CD47;
+}
+
+.download-button{
+    margin:5% 3% 5% 0%;
+}
+
+.main-title{
+    font-family: "Montserrat";
+    font-size: 3.2rem;
+    font-weight: 900;
+    line-height: 1.5;
+    color: #C69749;
+    padding-top: 150px;
+    padding-bottom:50px;
+}
+
+.heart-icon{
+    color: #E96479;
+    font-size: 4rem;
+    padding-top: 3.75rem;
+}
+
+.heart-icon:hover{
+    color: #e096a1;
+}
+
+.iphoneX{
+    width: 60%;
+    transform: rotate(20deg);
+}
+
+.nav-item{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-family: 'Cabin', sans-serif;
+}
+
+.navbar-brand{
+    font-size: 4rem;
+    font-family: 'Faster One';
+}
+
+.navbar{
+    padding: 0 0 5rem;
+}
+
+.nav-link{
+    font-size:1.2rem;
+}
+
+#press{
+    background-color: #C69749;
+    text-align: center;
+}
+
+.press-img {
+    width: 7%;
+    margin: 3rem 5rem 4rem;
+}
+
+.shield-icon{
+    color: #0081C9;
+    font-size: 4rem;
+    padding-top: 3.75rem;
+}
+
+.shield-icon:hover{
+    color: #4da6d6;
+}
+
+#testimonials{
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #C69749;
+}
+
+.testimonial-image{
+    width: 15%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
