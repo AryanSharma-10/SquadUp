@@ -14,10 +14,17 @@ h2 {
 }
 
 #features{
+    background-color: white;
+}
+
+#features{
     color: black;
     padding: 12rem;
     text-align: center;
+    position: relative;
+    z-index: 1;
 }
+
 
 .features-title{
     font-weight: 600;
@@ -28,12 +35,18 @@ h2 {
 
 .features-text{
     color: grey;
-    width: 60%;
     font-family: 'Ubuntu', sans-serif;
     font-size: 1.15rem;
     margin: 0 auto 0 auto;
 }
 
+.carousel-item{
+    padding: 7% 15%;
+}
+
+.card{
+    padding: 0px 12px;
+}
 .container-fluid{
     padding: 3% 15%;
 }
@@ -73,8 +86,9 @@ h2 {
 }
 
 .iphoneX{
-    width: 60%;
+    width: 22rem;
     transform: rotate(20deg);
+    position: absolute;
 }
 
 .nav-item{
@@ -103,7 +117,20 @@ h2 {
 
 .press-img {
     width: 7%;
-    margin: 3rem 5rem 4rem;
+    margin: 1rem 1rem 1rem;
+}
+
+.pricing-btn{
+    width:100%;
+    font-family: "Cabin";
+    font-weight: 600;
+}
+
+.pricing-column{
+    padding: 3% 2%;
+}
+#pricing{
+    padding: 100px;
 }
 
 .shield-icon{
@@ -117,14 +144,22 @@ h2 {
 }
 
 #testimonials{
-    padding: 7% 15%;
     text-align: center;
     background-color: #C69749;
 }
 
 .testimonial-image{
-    width: 15%;
+    width: 12%;
     border-radius: 100%;
     margin: 20px;
 }
 
+@media (max-width: 992px) {
+    #title{
+        text-align: center;
+    }
+    .iphoneX{
+        position: static;
+        transform: rotate(0);
+    }
+}
