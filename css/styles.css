@@ -61,6 +61,17 @@ h2 {
     color: #82CD47;
 }
 
+#cta{
+    background-color: #C69749;
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.cta-heading{
+    font-family: 'Montserrat';
+    font-size: 3.5rem;
+}
+
 .download-button{
     margin:5% 3% 5% 0%;
 }
@@ -73,6 +84,11 @@ h2 {
     color: #C69749;
     padding-top: 150px;
     padding-bottom:50px;
+}
+
+#footer{
+    padding: 7% 15%;
+    text-align: center;
 }
 
 .heart-icon{
@@ -124,6 +140,10 @@ h2 {
     width:100%;
     font-family: "Cabin";
     font-weight: 600;
+}
+
+.social {
+    margin: 20px 10px;
 }
 
 .pricing-column{
